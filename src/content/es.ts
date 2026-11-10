@@ -28,7 +28,7 @@ export const es = {
     email: 'luis.carlos.gomez.urquijo@gmail.com',
     github: 'https://github.com/Shadow025',
     linkedin: '', // TODO: URL de LinkedIn (vacío = no se muestra)
-    cvUrl: '', // TODO: '/cv/CV-Luis-Carlos-Gomez.pdf' cuando el PDF esté en public/cv/ (vacío = no se muestra)
+    cvUrl: '', // TODO: 'cv/CV-Luis-Carlos-Gomez.pdf' cuando el PDF esté en public/cv/ (vacío = no se muestra)
   },
 
   /* ───────────── Barra de navegación ───────────── */

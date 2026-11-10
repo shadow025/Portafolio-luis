@@ -90,7 +90,7 @@ export function Hero() {
           </a>
           {profile.cvUrl && (
             <a
-              href={profile.cvUrl}
+              href={`${import.meta.env.BASE_URL}${profile.cvUrl.replace(/^\//, '')}`}
               download
               className="rounded-full border border-line px-6 py-3 font-semibold transition-colors hover:border-ink/40"
             >
