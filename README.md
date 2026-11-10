@@ -1,6 +1,6 @@
 # Portafolio - Luis Carlos Gómez
 
-Portafolio personal construido con Vite + React + TypeScript + Tailwind CSS.
+Portafolio personal construido con Vite + React + TypeScript + Tailwind CSS, con animaciones de GSAP (ScrollTrigger) y scroll suave con Lenis.
 
 ## Scripts
 
@@ -13,10 +13,11 @@ Portafolio personal construido con Vite + React + TypeScript + Tailwind CSS.
 
 ```
 src/
-  components/   Componentes reutilizables (Navbar, Footer, Cards...)
+  content/es.ts Todo el texto del portafolio (se edita a mano)
+  components/   Componentes reutilizables (Navbar, Tag, Counter, Marquee...)
   sections/     Secciones de la página (Hero, Sobre mí, Experiencia...)
-  data/         Datos del portafolio (perfil, experiencia, proyectos...)
-  hooks/        Hooks personalizados
+  lib/motion.ts GSAP + ScrollTrigger + Lenis
+  hooks/        Hooks (animaciones de aparición)
   types/        Tipos TypeScript
   assets/       Imágenes e íconos usados en el código
 public/
@@ -24,4 +25,4 @@ public/
   cv/           CV en PDF
 ```
 
-Los datos del portafolio se editan en `src/data/`.
+Todo el texto del portafolio se edita en `src/content/es.ts`.
