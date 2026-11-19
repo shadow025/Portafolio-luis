@@ -16,7 +16,7 @@ import type {
   Stat,
 } from '../types'
 
-const thisIsClaudeUrl = 'https://shadow025.github.io/This-is-Claude/' // tentativa: depende del nombre final del repo
+const thisIsClaudeUrl = 'https://this-is-claude.vercel.app/' // tentativa: depende del nombre final del repo
 
 export const es = {
   /* ───────────── Datos personales ───────────── */
