@@ -10,7 +10,6 @@ export function Footer() {
         <p>
           © {currentYear} {es.profile.name}
         </p>
-        <p>{es.footer.builtWith}</p>
         <a href="#inicio" className="flex items-center gap-1.5 transition-colors hover:text-lime">
           {es.footer.backToTop} <ArrowUp size={14} />
         </a>

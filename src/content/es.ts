@@ -295,7 +295,6 @@ export const es = {
 
   /* ───────────── Pie de página ───────────── */
   footer: {
-    builtWith: 'Diseñado y dirigido por Luis. Construido con Claude Code.',
     backToTop: 'Volver arriba',
   },
 }
