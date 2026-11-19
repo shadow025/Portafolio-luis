@@ -259,7 +259,7 @@ export const es = {
         level: 'Con apoyo de IA',
         skills: ['Python', 'TypeScript / JavaScript', 'SQL', 'SQLAlchemy', 'PostgreSQL', 'Redis', 'Celery', 'React', 'Vite', 'pandas', 'scikit-learn', 'OpenCV'],
       },
-      { level: 'Herramientas', skills: ['Git', 'GitHub (pull requests)', 'Docker', 'Claude Code y asistentes de IA'] },
+      { level: 'Herramientas', skills: ['Git', 'Docker', 'Claude Code y asistentes de IA'] },
     ] satisfies SkillGroup[],
     languagesTitle: 'Idiomas',
     languages: [
