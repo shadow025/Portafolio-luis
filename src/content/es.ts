@@ -67,12 +67,12 @@ export const es = {
       'También construyo herramientas full-stack y de datos con Python, FastAPI, PostgreSQL y React/TypeScript con apoyo de IA. Superviso y reviso su trabajo y pruebo los resultados, mientras sigo reforzando mis fundamentos.',
       'Me apasiona aprender por mi cuenta: de motores de videojuegos a backend, datos y machine learning.',
     ],
+    // Puntos destacados, sin cifras.
     stats: [
-      { value: 2023, from: 2015, label: 'Año en que empecé a desarrollar videojuegos en Vakano Studio' },
-      { value: 1, label: 'Juego móvil publicado en Google Play' },
-      { value: 2, label: 'Desarrolladores en StreamTV Norte trabajando con ramas, pull requests y revisión de código' },
-      { value: 4, label: 'Proyectos desarrollados con apoyo de IA' },
-    ] as Stat[],
+      { title: 'Juegos móviles', label: 'Videojuegos desarrollados para móvil.' },
+      { title: 'Empresas pequeñas y medianas', label: 'Proyectos que resuelven sus procesos repetitivos.' },
+      { title: 'Trabajo en equipo', label: 'Desarrollo en conjunto con ramas, pull requests y revisión de código.' },
+    ] satisfies Stat[],
   },
 
   /* ───────────── 02 · Experiencia ───────────── */

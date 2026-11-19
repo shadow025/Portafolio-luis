@@ -4,10 +4,7 @@ export interface NavLink {
 }
 
 export interface Stat {
-  value: number
-  /** Valor desde el que arranca el contador animado (por defecto 0). */
-  from?: number
-  suffix?: string
+  title: string
   label: string
 }
 

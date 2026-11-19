@@ -1,6 +1,5 @@
 import { es } from '../content/es'
 import { SectionHeader } from '../components/SectionHeader'
-import { Counter } from '../components/Counter'
 
 export function About() {
   const { about } = es
@@ -17,13 +16,11 @@ export function About() {
           ))}
         </div>
 
-        <dl className="grid grid-cols-2 gap-px self-start overflow-hidden rounded-2xl border border-line bg-line">
+        <dl className="grid gap-px self-start overflow-hidden rounded-2xl border border-line bg-line">
           {about.stats.map((stat) => (
-            <div key={stat.label} className="reveal flex flex-col gap-2 bg-bg p-6">
-              <dt className="order-2 text-sm leading-snug text-muted">{stat.label}</dt>
-              <dd className="order-1 font-display text-4xl font-extrabold text-lime md:text-5xl">
-                <Counter value={stat.value} from={stat.from} suffix={stat.suffix} />
-              </dd>
+            <div key={stat.title} className="reveal flex flex-col gap-2 bg-bg p-6">
+              <dt className="font-display text-2xl leading-tight font-extrabold text-lime md:text-3xl">{stat.title}</dt>
+              <dd className="text-sm leading-snug text-muted">{stat.label}</dd>
             </div>
           ))}
         </dl>
