@@ -72,7 +72,7 @@ export const es = {
       { value: 1, label: 'Juego móvil publicado en Google Play' },
       { value: 2, label: 'Desarrolladores en StreamTV Norte trabajando con ramas, pull requests y revisión de código' },
       { value: 4, label: 'Proyectos desarrollados con apoyo de IA' },
-    ] satisfies Stat[],
+    ] as Stat[],
   },
 
   /* ───────────── 02 · Experiencia ───────────── */
