@@ -70,7 +70,7 @@ export function Hero() {
           {profile.name} — {hero.kicker}
         </p>
 
-        <h1 className="hero-title font-display text-[clamp(2.9rem,9.5vw,8.5rem)] leading-[0.92] font-extrabold tracking-[-0.03em]">
+        <h1 className="hero-title font-display text-[clamp(2.2rem,7.2vw,7rem)] leading-[0.92] font-extrabold tracking-[-0.03em]">
           {hero.titleLines.map((line, i) => (
             <span key={line} className="hero-line block overflow-hidden pb-[0.06em]">
               <span className={`block ${i === hero.titleLines.length - 1 ? 'text-lime' : ''}`}>{line}</span>

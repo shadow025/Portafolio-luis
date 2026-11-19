@@ -48,7 +48,7 @@ export const es = {
   hero: {
     kicker: 'Desarrollador de Software Junior',
     // Cada línea del título aparece por separado en la animación.
-    titleLines: ['Hago videojuegos', 'y las APIs', 'que los sostienen.'],
+    titleLines: ['Hago videojuegos,', 'APIs y soluciones', 'para problemas', 'repetitivos de empresas.'],
     subtitle:
       'Base sólida en C#, Unity y FastAPI. Para todo lo demás trabajo con IA: yo defino el diseño, reviso el trabajo y pruebo los resultados.',
     ctaPrimary: 'Ver proyectos',
