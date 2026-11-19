@@ -1,12 +1,16 @@
 import type { PointerEvent } from 'react'
-import { ArrowUpRight, Gamepad2, Sparkles } from 'lucide-react'
+import { ArrowUpRight, Gamepad2, GraduationCap, Sparkles } from 'lucide-react'
 import { es } from '../content/es'
 import type { Project } from '../types'
 import { SectionHeader } from '../components/SectionHeader'
 import { Tag } from '../components/Tag'
 import { GithubIcon } from '../components/BrandIcons'
 
-const groupIcons: Record<string, typeof Gamepad2> = { videojuegos: Gamepad2, 'con-ia': Sparkles }
+const groupIcons: Record<string, typeof Gamepad2> = {
+  videojuegos: Gamepad2,
+  academicos: GraduationCap,
+  'con-ia': Sparkles,
+}
 
 /** Mueve el foco de luz de la tarjeta a la posición del cursor. */
 function trackPointer(e: PointerEvent<HTMLElement>) {

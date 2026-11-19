@@ -109,11 +109,80 @@ export const es = {
         title: 'Base principal: C# y videojuegos',
         items: [
           {
+            title: 'Videojuego 2D',
+            client: 'En desarrollo',
+            period: '2026 – Actual',
+            description: 'Actualmente desarrollo un videojuego 2D propio.',
+            highlights: ['Me encargo de la programación, el diseño del juego y el arte en pixel art.'],
+            technologies: ['C#', 'Unity', 'Pixel art'],
+          },
+          {
+            title: 'Juego tragamonedas tipo casino',
+            client: 'Proyecto de prácticas · aprobado y entregado',
+            period: 'Feb – May 2026',
+            description:
+              'Tragamonedas (slots) con la parte visual en Unity y toda la lógica del juego en el backend.',
+            highlights: [
+              'API con FastAPI: giros, líneas ganadoras, porcentaje de retorno (RTP) verificado con pruebas, sesiones y autenticación.',
+              'Cliente en Unity con animaciones, audio y efectos visuales; muestra el resultado que calcula la API.',
+            ],
+            technologies: ['C#', 'Unity', 'Python', 'FastAPI', 'JWT', 'APIs REST'],
+          },
+          {
+            title: 'Polar Adventures',
+            client: 'Desarrollado en equipo',
+            period: '2023 – 2026',
+            description: 'Videojuego móvil 2D con progresión por niveles, publicado en Google Play.',
+            highlights: ['Trabajo en equipo sobre el mismo proyecto de Unity, coordinado con Git.'],
+            technologies: ['C#', 'Unity', 'Git'],
+          },
+          {
             title: 'Plataformas 2D con multijugador LAN',
             period: '2026',
             description: 'Juego de plataformas 2D con modo multijugador local y en red LAN.',
             highlights: ['Menú para elegir partida Local o LAN.', 'Sincronización en red con Netcode for GameObjects.'],
             technologies: ['C#', 'Unity 6', 'Netcode for GameObjects'],
+          },
+          {
+            title: 'Prototipos en Godot',
+            period: 'Nivel básico',
+            description: 'Juegos pequeños en Godot que consumen APIs REST.',
+            highlights: ['Me sirvieron para aprender un segundo motor además de Unity.'],
+            technologies: ['Godot', 'GDScript', 'APIs REST'],
+          },
+        ],
+      },
+      {
+        id: 'academicos',
+        title: 'Proyectos académicos',
+        note: 'Hechos durante mi formación. Su código es público en mi GitHub.',
+        items: [
+          {
+            title: 'Aplicativo de métodos numéricos',
+            period: 'Universidad',
+            description: 'Resuelve sistemas de ecuaciones lineales con métodos iterativos.',
+            highlights: [
+              'El usuario ingresa su propio sistema, la tolerancia y el método a usar.',
+              'Muestra la tabla de iteraciones y tiene pruebas unitarias que verifican la convergencia.',
+            ],
+            technologies: ['Python', 'NumPy', 'unittest'],
+          },
+          {
+            title: 'Plataforma web de adopción de mascotas',
+            period: 'Diplomado · en equipo',
+            description: 'Aplicación web full-stack para publicar animales en adopción y organizar jornadas de vacunación.',
+            highlights: [
+              'API REST con autenticación, roles y subida de imágenes.',
+              'Frontend en React con TypeScript y despliegue con Docker.',
+            ],
+            technologies: ['Node.js', 'Express', 'Sequelize', 'MySQL', 'React', 'TypeScript', 'Docker'],
+          },
+          {
+            title: 'API REST de gestión de préstamos',
+            period: 'Universidad',
+            description: 'API para administrar libros, usuarios y préstamos.',
+            highlights: ['Organizada por capas: rutas, controladores, servicios y modelos.'],
+            technologies: ['Node.js', 'Express', 'Sequelize', 'PostgreSQL'],
           },
         ],
       },
