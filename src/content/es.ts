@@ -70,7 +70,7 @@ export const es = {
     stats: [
       { value: 2023, from: 2015, label: 'Año en que empecé a desarrollar videojuegos en Vakano Studio' },
       { value: 1, label: 'Juego móvil publicado en Google Play' },
-      { value: 300, suffix: '+', label: 'Commits en el sistema de facturación de StreamTV Norte' },
+      { value: 2, label: 'Desarrolladores en StreamTV Norte trabajando con ramas, pull requests y revisión de código' },
       { value: 4, label: 'Proyectos desarrollados con apoyo de IA' },
     ] satisfies Stat[],
   },
@@ -130,7 +130,7 @@ export const es = {
               'Reemplaza la facturación en Excel y papel de la empresa para cientos de miles de clientes.',
             highlights: [
               'API backend con FastAPI y SQLAlchemy, migraciones con Alembic sobre PostgreSQL y tareas en segundo plano con Celery y Redis.',
-              'Desarrollador principal: más de 300 commits entre backend y frontend, con pull requests y revisión de código junto a otro desarrollador.',
+              'Desarrollador principal en un equipo de dos, con un flujo de Git ordenado: una rama por funcionalidad, commits pequeños y descriptivos, y pull requests con revisión de código antes de integrar a main.',
             ],
             technologies: ['Python', 'FastAPI', 'SQLAlchemy', 'Alembic', 'PostgreSQL', 'Celery', 'Redis', 'pytest', 'React', 'TypeScript', 'Docker'],
           },
