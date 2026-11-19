@@ -241,7 +241,20 @@ export const es = {
     marquee: ['C#', 'Unity', 'FastAPI', 'APIs REST', 'Python', 'PostgreSQL', 'React', 'TypeScript', 'Docker', 'Git', 'Godot', 'scikit-learn'],
     groups: [
       { level: 'Más sólidas', skills: ['C#', 'Unity', 'FastAPI', 'Programación orientada a objetos', 'Videojuegos 2D', 'APIs REST'] },
-      { level: 'Básicas', skills: ['Godot'] },
+      {
+        level: 'Básicas',
+        skills: [
+          'Godot',
+          'Redes y telecomunicaciones',
+          'Modelo OSI',
+          'TCP/IP',
+          'Direccionamiento IP y subredes',
+          'VLANs',
+          'Cisco',
+          'MikroTik',
+          'Fibra óptica (GPON / ONT)',
+        ],
+      },
       {
         level: 'Con apoyo de IA',
         skills: ['Python', 'TypeScript / JavaScript', 'SQL', 'SQLAlchemy', 'PostgreSQL', 'Redis', 'Celery', 'React', 'Vite', 'pandas', 'scikit-learn', 'OpenCV'],
